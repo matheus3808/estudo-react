@@ -11,6 +11,8 @@ import ComponenteParaReceberProps from './componentes/ComponenteParaReceberProps
 import UseState from './componentes/UseState'
 import EventoSubmit from'./componentes/EventoSubmit'
 import StateLift from './componentes/StateLift'
+import Footer from './componentes/Footer'
+
 
 
 function App() {
@@ -37,12 +39,15 @@ function App() {
    <EventoSubmit/>
    <RenderizacaoCondicional/>
    <StateLift/>
-   
+   <Footer/>
+  
+
+  
    </div>
 
    
       
-  );
+  )
 }
 
 export default App;

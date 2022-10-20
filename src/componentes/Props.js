@@ -1,3 +1,7 @@
+
+
+
+
 function Props({marca,modelo}){
     return(
         <div>
